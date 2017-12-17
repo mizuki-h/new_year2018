@@ -1,0 +1,53 @@
+body,
+img,
+p, blockquote,
+h1, h2, h3, h4, h5, h6,
+div, dl, dt, dd,
+form, fieldset, textarea,
+ul, ol {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: none;
+}
+body {
+  font-family: "Light" , "tegaki" , "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+  line-height: 1.4;
+}
+li {
+  margin: 0;
+  padding: 0;
+  list-style-image: none;
+  list-style-type: none;
+}
+h1,h2,h3,h4,h5,h6,th,td {
+  font-size: inherit;
+}
+button {
+  margin: 0;
+  padding: 0;
+  color: inherit;
+  background: transparent;
+  border: none;
+  -webkit-appearance: none;
+  font-size: inherit;
+  cursor: pointer;
+}
+a:hover{
+  text-decoration: none;
+}
+a{
+  text-decoration: none;
+}
+p{
+  text-indent: -999999px;
+}
+#NewYearImg{
+    background: url(../img/new_year2018.jpg)no-repeat center 80px;
+    height: 700px;
+    width: 100%;
+    background-size: 560px;
+}
+
